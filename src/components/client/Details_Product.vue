@@ -1,6 +1,6 @@
 <script setup>
-import Footer from "../layouts/client/Footer.vue";
-import Header from "../layouts/client/Header.vue";
+import Footer from "../../layouts/client/Footer.vue";
+import Header from "../../layouts/client/Header.vue";
 
 </script>
 <template>
@@ -10,26 +10,26 @@ import Header from "../layouts/client/Header.vue";
             <div class="flex lg:gap-8 lg:flex-row flex-col bg-white rounded-xl">
                 <div class="w-full lg:w-[40%] gap-8 p-8 flex flex-col justify-start items-center">
                     <div class="flex flex-col gap-5">
-                        <img src="../assets/img/TruyenTranh-2.jpg" class="w-[500px]" alt="" />
+                        <img src="../../assets/img/TruyenTranh-2.jpg" class="w-[500px]" alt="" />
                     </div>
                     <div class="flex flex-col gap-5">
                         <h2 class="text-[22px] font-semibold text-left">Một số ảnh chi tiết</h2>
                         <div class="flex gap-4">
                             <div
                                 class="p-1 border-2 border-gray-300 cursor-pointer transition-all duration-200 hover:border-[#A0522D] rounded-xl">
-                                <img src="../assets/img/TruyenTranh-2.jpg" class="w-[150px]" alt="" />
+                                <img src="../../assets/img/TruyenTranh-2.jpg" class="w-[150px]" alt="" />
                             </div>
                             <div
                                 class="p-1 border-2 border-gray-300 cursor-pointer transition-all duration-200 hover:border-[#A0522D] rounded-xl">
-                                <img src="../assets/img/TruyenTranh-2.jpg" class="w-[150px]" alt="" />
+                                <img src="../../assets/img/TruyenTranh-2.jpg" class="w-[150px]" alt="" />
                             </div>
                             <div
                                 class="p-1 border-2 border-gray-300 cursor-pointer transition-all duration-200 hover:border-[#A0522D] rounded-xl">
-                                <img src="../assets/img/TruyenTranh-2.jpg" class="w-[150px]" alt="" />
+                                <img src="../../assets/img/TruyenTranh-2.jpg" class="w-[150px]" alt="" />
                             </div>
                             <div
                                 class="p-1 border-2 border-gray-300 cursor-pointer transition-all duration-200 hover:border-[#A0522D] rounded-xl">
-                                <img src="../assets/img/TruyenTranh-2.jpg" class="w-[150px]" alt="" />
+                                <img src="../../assets/img/TruyenTranh-2.jpg" class="w-[150px]" alt="" />
                             </div>
                         </div>
                     </div>

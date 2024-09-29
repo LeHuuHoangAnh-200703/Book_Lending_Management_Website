@@ -2,8 +2,8 @@
 import { ref } from "vue";
 import { onMounted } from "vue";
 import { computed } from "vue";
-import Footer from "../layouts/client/Footer.vue";
-import Header from "../layouts/client/Header.vue";
+import Footer from "../../layouts/client/Footer.vue";
+import Header from "../../layouts/client/Header.vue";
 
 const bookCollection = ref([
     {
@@ -135,7 +135,7 @@ onMounted(() => {
                         </p>
                     </div>
                     <div class="w-full lg:w-[45%] flex items-center justify-center">
-                        <img class="w-[600px]" src="../assets/img/table.png" alt="" />
+                        <img class="w-[600px]" src="../../assets/img/table.png" alt="" />
                     </div>
                 </div>
                 <hr class="my-8">
@@ -147,7 +147,7 @@ onMounted(() => {
                         <p class="text-[16px]">Góp ý : <span
                                 class="text-[#FFD700] font-semibold">paulto@gmail.com</span></p>
                     </div>
-                    <img src="../assets/img/about.png" class="w-[350px]" alt="">
+                    <img src="../../assets/img/about.png" class="w-[350px]" alt="">
                 </div>
             </div>
             <div class="flex xl:flex-row flex-col justify-center gap-4 lg:gap-8 lg:pt-10 lg:px-10 p-4">
@@ -187,21 +187,22 @@ onMounted(() => {
                 <div
                     class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-center gap-4 text-[#333f48] cursor-pointer">
                     <div v-for="(item, index) in displayedBooks" :key="index"
-                        class="flex flex-col items-center border border-gray-300 rounded-lg shadow-lg p-4">
-                        <img :src="item.coverImage" class="w-48 h-72 object-cover rounded-md mb-2 transition-transform duration-300 hover:shadow-xl hover:scale-105" alt="Book Cover" />
+                        class="flex flex-col items-center border-2 rounded-lg shadow-lg p-4 bg-white transition-transform duration-300 hover:shadow-2xl">
+                        <img :src="item.coverImage"
+                            class="w-48 h-72 object-cover rounded-md mb-4 transition-transform duration-300 hover:scale-105"
+                            alt="Book Cover" />
                         <div class="text-center">
                             <h3 class="w-60 whitespace-nowrap text-ellipsis overflow-hidden text-center">
                                 <a href=""
-                                    class="text-lg font-semibold hover:text-[#A0522D] transition-all duration-300">{{
-                                        item.title
-                                    }}</a>
+                                    class="text-lg font-semibold text-[#A0522D] hover:text-[#8B4513] transition-all duration-300">{{
+                                        item.title }}</a>
                             </h3>
-                            <p class="text-md text-gray-600 mb-2">{{ item.writer }}</p>
+                            <p class="text-md text-gray-700 mb-2">{{ item.writer }}</p>
                         </div>
-                        <a href="#"
-                            class=" text-[#333] text-lg font-semibold py-2 px-4 underline rounded-md transition-all duration-300 hover:text-[#8B4513]">
-                            Thêm Giỏ Hàng <i class="fa-solid fa-plus-circle"></i>
-                        </a>
+                        <button
+                            class="flex items-center justify-center bg-gradient-to-r from-[#A0522D] to-[#8B4513] text-white text-lg font-semibold py-2 px-6 rounded-full shadow-md transition-all duration-300 hover:scale-105">
+                            <i class="fa-solid fa-plus-circle mr-2"></i> Thêm Giỏ Hàng
+                        </button>
                     </div>
                 </div>
             </div>

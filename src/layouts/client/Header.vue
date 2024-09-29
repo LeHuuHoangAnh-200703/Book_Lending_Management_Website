@@ -34,15 +34,15 @@ onMounted(() => {
             </div>
             <ul class="lg:flex hidden">
                 <li class="px-[15px] text-[20px] group">
-                    <router-link to="" class="font-bold group-hover:text-[#A0522D] transition-all duration-300">Đăng
+                    <router-link to="/login" class="font-bold group-hover:text-[#A0522D] transition-all duration-300">Đăng
                         nhập</router-link>
                 </li>
                 <li class="px-[15px] text-[20px] group">
-                    <router-link to="" class="font-bold group-hover:text-[#A0522D] transition-all duration-300">Trang
+                    <router-link to="/" class="font-bold group-hover:text-[#A0522D] transition-all duration-300">Trang
                         chủ</router-link>
                 </li>
                 <li class="px-[15px] text-[20px] group">
-                    <router-link to="" class="font-bold group-hover:text-[#A0522D] transition-all duration-300">Lịch sử
+                    <router-link to="/bookHistory" class="font-bold group-hover:text-[#A0522D] transition-all duration-300">Lịch sử
                         mượn
                         sách</router-link>
                 </li>
