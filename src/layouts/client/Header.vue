@@ -42,7 +42,7 @@ onMounted(() => {
                         chủ</router-link>
                 </li>
                 <li class="px-[15px] text-[20px] group">
-                    <router-link to="/bookHistory" class="font-bold group-hover:text-[#A0522D] transition-all duration-300">Lịch sử
+                    <router-link to="/Book_history" class="font-bold group-hover:text-[#A0522D] transition-all duration-300">Lịch sử
                         mượn
                         sách</router-link>
                 </li>

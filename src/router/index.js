@@ -4,6 +4,8 @@ import Details_Product from '@/components/client/Details_Product.vue';
 import Login from '@/components/auth/Login.vue';
 import Register from '@/components/auth/Register.vue';
 import Shopping_cart from '@/components/client/Shopping_cart.vue';
+import Book_History from '@/components/client/Book_History.vue';
+
 const routes = [
     {
         path: '/',
@@ -29,6 +31,11 @@ const routes = [
         path: '/shopping_cart',
         name: 'Shopping_cart',
         component: Shopping_cart
+    },
+    {
+        path: '/Book_history',
+        name: 'Book_History',
+        component: Book_History
     },
 ];
 
