@@ -49,10 +49,6 @@ import Footer from "../../layouts/client/Footer.vue";
                                     </div>
                                 </div>
                                 <div class="md:col-span-5 flex gap-4 flex-col">
-                                    <p class="text-[16px] font-semibold">Ngày mượn:</p>
-                                    <input type="date" name="borrow_date" class="border rounded p-2 w-full" required />
-                                </div>
-                                <div class="md:col-span-5 flex gap-4 flex-col">
                                     <p class="text-[16px] font-semibold">Ngày trả:</p>
                                     <input type="date" name="return_date" class="border rounded p-2 w-full" required />
                                 </div>

@@ -7,6 +7,7 @@ import Shopping_cart from '@/components/client/Shopping_cart.vue';
 import Book_History from '@/components/client/Book_History.vue';
 import Order from '@/components/client/Order.vue';
 import Info from '@/components/client/Info.vue';
+import Edit_Info from '@/components/client/Edit_Info.vue';
 
 const routes = [
     {
@@ -48,7 +49,12 @@ const routes = [
         path: '/info',
         name: 'Info',
         component: Info
-    }
+    },
+    {
+        path: '/edit_Info',
+        name: 'Edit_Info',
+        component: Edit_Info
+    },
 ];
 
 const router = createRouter({
