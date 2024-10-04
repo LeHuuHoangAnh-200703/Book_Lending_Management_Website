@@ -22,15 +22,23 @@ import Footer from "../../layouts/client/Footer.vue";
           <img src="../../assets/img/TruyenTranh-2.jpg" class="w-[180px] rounded-lg shadow" alt="Sách" />
           <div class="flex-grow">
             <h3 class="text-xl font-semibold text-gray-800">Pokémon Đặc Biệt - Tập 59</h3>
-            <p class="text-[14px] lg:text-lg text-gray-600 font-semibold mt-2">Giá mượn: <span class="text-red-500">20.000 VNĐ</span></p>
+            <p class="text-[14px] lg:text-lg text-gray-600 font-semibold mt-2">Giá mượn: <span
+                class="text-red-500">20.000 VNĐ</span></p>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
-              <p class="text-[14px] lg:text-lg font-semibold text-gray-600">Loại sách: <span class="text-gray-800">Truyện tranh (Manga)</span></p>
-              <p class="text-[14px] lg:text-lg font-semibold text-gray-600">Số lượng: <span class="text-[#A0522D]">1</span></p>
-              <p class="text-[14px] lg:text-lg font-semibold text-gray-600">Tác giả: <span class="text-gray-800">Hidenori Kusaka, Satoshi Yamamoto</span></p>
-              <p class="text-[14px] lg:text-lg font-semibold text-gray-600">Nhà xuất bản: <span class="text-gray-800">Kim Đồng</span></p>
-              <p class="text-[14px] lg:text-lg font-semibold text-gray-600">Thể loại: <span class="text-[#A0522D]">Action, Adventure, Comedy</span></p>
-              <p class="text-[14px] lg:text-lg font-semibold text-gray-600">Ngày mượn: <span class="text-gray-800">20-07-2024</span></p>
-              <p class="text-[14px] lg:text-lg font-semibold text-gray-600">Thời gian mượn: <span class="text-gray-800">1 tuần</span></p>
+              <p class="text-[14px] lg:text-lg font-semibold text-gray-600">Loại sách: <span
+                  class="text-gray-800">Truyện tranh (Manga)</span></p>
+              <p class="text-[14px] lg:text-lg font-semibold text-gray-600">Số lượng: <span
+                  class="text-[#A0522D]">1</span></p>
+              <p class="text-[14px] lg:text-lg font-semibold text-gray-600">Tác giả: <span
+                  class="text-gray-800">Hidenori Kusaka, Satoshi Yamamoto</span></p>
+              <p class="text-[14px] lg:text-lg font-semibold text-gray-600">Nhà xuất bản: <span
+                  class="text-gray-800">Kim Đồng</span></p>
+              <p class="text-[14px] lg:text-lg font-semibold text-gray-600">Thể loại: <span
+                  class="text-[#A0522D]">Action, Adventure, Comedy</span></p>
+              <p class="text-[14px] lg:text-lg font-semibold text-gray-600">Ngày mượn: <span
+                  class="text-gray-800">20-07-2024</span></p>
+              <p class="text-[14px] lg:text-lg font-semibold text-gray-600">Thời gian mượn: <span
+                  class="text-gray-800">1 tuần</span></p>
             </div>
           </div>
         </div>
@@ -50,6 +58,4 @@ import Footer from "../../layouts/client/Footer.vue";
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
