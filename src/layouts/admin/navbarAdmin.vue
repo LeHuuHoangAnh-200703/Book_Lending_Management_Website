@@ -27,6 +27,16 @@ const sidebarListItem = [
         path: "adminOrdersList"
     },
     {
+        title: "Thêm nhà xuất bản",
+        icon: "fa-solid fa-plus",
+        path: "admin_AddNXB"
+    },
+    {
+        title: "Danh sách nhà xuất bản",
+        icon: "fa-solid fa-user",
+        path: "admin_NXBLists"
+    },
+    {
         title: "Đăng xuất",
         icon: "fa-solid fa-right-from-bracket",
         path: ""
@@ -50,7 +60,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <header class="px-8 py-4 bg-white shadow flex items-center justify-between">
+    <header class="px-8 py-4 bg-white flex items-center justify-between">
         <h2 class="text-xl font-bold hidden lg:block">Danh sách sản phẩm</h2>
         <div class="flex flex-col gap-2 items-start lg:items-end">
             <p class="text-[16px] lg:text-[20px] font-semibold">Tô Văn Hưởng</p>

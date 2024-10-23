@@ -25,7 +25,17 @@ const sidebarListItem = [
         icon: "fa-solid fa-cart-shopping",
         path: "admin_OrdersList"
     },
-     {
+    {
+        title: "Thêm nhà xuất bản",
+        icon: "fa-solid fa-plus",
+        path: "admin_AddNXB"
+    },
+    {
+        title: "Danh sách nhà xuất bản",
+        icon: "fa-solid fa-user",
+        path: "admin_NXBLists"
+    },
+    {
         title: "Đăng xuất",
         icon: "fa-solid fa-right-from-bracket",
         path: ""

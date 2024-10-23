@@ -15,6 +15,12 @@
                         </p>
                         <form action="" class="space-y-6">
                             <div>
+                                <label for="id" class="text-sm font-medium text-gray-800 block mb-2">Mã admin</label>
+                                <input type="text" id="id"
+                                    class="w-full px-4 py-3 rounded-lg outline-none border-2 border-gray-300 focus:border-[#A0522D] focus:ring-[#A0522D] transition duration-150 ease-in-out"
+                                    placeholder="Mã admin">
+                            </div>
+                            <div>
                                 <label for="username" class="text-sm font-medium text-gray-800 block mb-2">Tên admin</label>
                                 <input type="text" id="username"
                                     class="w-full px-4 py-3 rounded-lg outline-none border-2 border-gray-300 focus:border-[#A0522D] focus:ring-[#A0522D] transition duration-150 ease-in-out"
@@ -25,6 +31,18 @@
                                 <input type="email" id="email"
                                     class="w-full px-4 py-3 rounded-lg outline-none border-2 border-gray-300 focus:border-[#A0522D] focus:ring-[#A0522D] transition duration-150 ease-in-out"
                                     placeholder="admin@gmail.com">
+                            </div>
+                            <div>
+                                <label for="phone" class="text-sm font-medium text-gray-800 block mb-2">Liên lạc</label>
+                                <input type="phone" id="phone"
+                                    class="w-full px-4 py-3 rounded-lg outline-none border-2 border-gray-300 focus:border-[#A0522D] focus:ring-[#A0522D] transition duration-150 ease-in-out"
+                                    placeholder="0xx-xxx-xxxx">
+                            </div>
+                            <div>
+                                <label for="address" class="text-sm font-medium text-gray-800 block mb-2">Địa chỉ</label>
+                                <input type="address" id="address"
+                                    class="w-full px-4 py-3 rounded-lg outline-none border-2 border-gray-300 focus:border-[#A0522D] focus:ring-[#A0522D] transition duration-150 ease-in-out"
+                                    placeholder="My Tu - Soc Trang">
                             </div>
                             <div>
                                 <label for="password" class="text-sm font-medium text-gray-800 block mb-2">Mật

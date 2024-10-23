@@ -15,6 +15,9 @@ import Admin_Users from '@/components/admin/Admin_Users.vue';
 import Admin_AddProduct from '@/components/admin/Admin_AddProduct.vue';
 import Admin_EditProduct from '@/components/admin/Admin_EditProduct.vue';
 import Admin_OrdersList from '@/components/admin/Admin_OrdersList.vue';
+import Admin_AddNXB from '@/components/admin/Admin_AddNXB.vue';
+import Admin_NXBLists from '@/components/admin/Admin_NXBLists.vue';
+import NotFound from '@/components/error/notFound.vue';
 
 const routes = [
     {
@@ -96,6 +99,21 @@ const routes = [
         path: '/admin/admin_OrdersList',
         name: 'Admin_OrdersList',
         component: Admin_OrdersList
+    },
+    {
+        path: '/admin/admin_AddNXB',
+        name: 'Admin_AddNXB',
+        component: Admin_AddNXB
+    },
+    {
+        path: '/admin/admin_NXBLists',
+        name: 'Admin_NXBLists',
+        component: Admin_NXBLists
+    },
+    {
+        path: '/notFound',
+        name: 'NotFound',
+        component: NotFound
     },
 ];
 

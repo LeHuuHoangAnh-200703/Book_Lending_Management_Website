@@ -22,15 +22,15 @@ const products = ref([
                     <table class="w-full border-collapse bg-white whitespace-nowrap text-center text-sm text-gray-500">
                         <thead class="bg-[#A0522D] text-white">
                             <tr>
-                                <th scope="col" class="px-6 py-4 font-semibold">ID</th>
-                                <th scope="col" class="px-6 py-4 font-semibold">Tên sản phẩm</th>
+                                <th scope="col" class="px-6 py-4 font-semibold">Mã sách</th>
+                                <th scope="col" class="px-6 py-4 font-semibold">Tên sách</th>
                                 <th scope="col" class="px-6 py-4 font-semibold">Ảnh sản phẩm</th>
-                                <th scope="col" class="px-6 py-4 font-semibold">Giá</th>
+                                <th scope="col" class="px-6 py-4 font-semibold">Đơn giá</th>
                                 <th scope="col" class="px-6 py-4 font-semibold">Năm xuất bản</th>
-                                <th scope="col" class="px-6 py-4 font-semibold">Loại</th>
-                                <th scope="col" class="px-6 py-4 font-semibold">Số lượng</th>
+                                <th scope="col" class="px-6 py-4 font-semibold">Loại sách</th>
+                                <th scope="col" class="px-6 py-4 font-semibold">Số quyển</th>
                                 <th scope="col" class="px-6 py-4 font-semibold">Tác giả</th>
-                                <th scope="col" class="px-6 py-4 font-semibold">Nhà xuất bản</th>
+                                <th scope="col" class="px-6 py-4 font-semibold">Mã NXB</th>
                                 <th scope="col" class="px-6 py-4 font-semibold">Mô tả</th>
                                 <th scope="col" class="px-6 py-4 font-semibold">Điều chỉnh</th>
                             </tr>

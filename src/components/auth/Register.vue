@@ -35,8 +35,29 @@
                                     placeholder="••••••••">
                             </div>
                             <div>
-                                <label for="username" class="text-sm font-medium text-gray-800 block mb-2">Địa Chỉ</label>
-                                <input type="text" id="username"
+                                <label for="dob" class="text-sm font-medium text-gray-800 block mb-2">Ngày sinh</label>
+                                <input type="date" id="dob"
+                                    class="w-full px-4 py-3 rounded-lg outline-none border-2 border-gray-300 focus:border-[#A0522D] focus:ring-[#A0522D] transition duration-150 ease-in-out">
+                            </div>
+                            <div>
+                                <label for="gender" class="text-sm font-medium text-gray-800 block mb-2">Phái</label>
+                                <select id="gender"
+                                    class="w-full px-4 py-3 rounded-lg outline-none border-2 border-gray-300 focus:border-[#A0522D] focus:ring-[#A0522D] transition duration-150 ease-in-out">
+                                    <option value="">Chọn phái</option>
+                                    <option value="male">Nam</option>
+                                    <option value="female">Nữ</option>
+                                    <option value="other">Khác</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="phone" class="text-sm font-medium text-gray-800 block mb-2">Liên lạc</label>
+                                <input type="text" id="phone"
+                                    class="w-full px-4 py-3 rounded-lg outline-none border-2 border-gray-300 focus:border-[#A0522D] focus:ring-[#A0522D] transition duration-150 ease-in-out"
+                                    placeholder="0xx-xxx-xxxx">
+                            </div>
+                            <div>
+                                <label for="address" class="text-sm font-medium text-gray-800 block mb-2">Địa Chỉ</label>
+                                <input type="text" id="address"
                                     class="w-full px-4 py-3 rounded-lg outline-none border-2 border-gray-300 focus:border-[#A0522D] focus:ring-[#A0522D] transition duration-150 ease-in-out"
                                     placeholder="Mỹ tú - Sóc trăng">
                             </div>

@@ -27,8 +27,26 @@ import Footer from "../../layouts/client/Footer.vue";
                         <div class="md:col-span-5">
                             <label for="email" class="font-semibold text-[16px]">Địa chỉ Email</label>
                             <input type="email" name="email" id="email" value=""
-                                class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder="tovanhuong@gmail.com" />
+                                class="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                                placeholder="tovanhuong@gmail.com" />
                         </div>
+
+                        <div class="md:col-span-5">
+                            <label for="dob" class="font-semibold text-[16px]">Ngày sinh</label>
+                            <input type="date" name="dob" id="dob" value=""
+                                class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" />
+                        </div>
+
+                        <div class="md:col-span-5">
+                            <label for="gender" class="font-semibold text-[16px]">Phái</label>
+                            <select name="gender" id="gender" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50">
+                                <option value="">Chọn phái</option>
+                                <option value="male">Nam</option>
+                                <option value="female">Nữ</option>
+                                <option value="other">Khác</option>
+                            </select>
+                        </div>
+
                         <div class="md:col-span-5">
                             <label for="phone" class="font-semibold text-[16px]">Số điện thoại</label>
                             <input type="text" name="phone" id="phone" value=""
@@ -38,7 +56,8 @@ import Footer from "../../layouts/client/Footer.vue";
                         <div class="md:col-span-5">
                             <label for="address" class="font-semibold text-[16px]">Địa chỉ</label>
                             <input type="text" name="address" id="address" value=""
-                                class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder="My Tu - Soc Trang" />
+                                class="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                                placeholder="My Tu - Soc Trang" />
                         </div>
 
                         <div class="md:col-span-5 text-center w-full">
